@@ -1,8 +1,14 @@
-.theTitle{
-	color: turquoise;
-	font: 'Didot';
-	list-style-type: none;
+.container {
+	color: #237CD0;
 }
-#something{
-	color: red;
+
+.btn {
+	color: #012CF0;
+	
+	}
+
+.allthings {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
 }
+

@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'eval',
   entry: [
     'webpack-hot-middleware/client',
-    './components/config/routes'
+    './components/config/routes'   //can alter--reference components
   ],
   output: {
     path: path.join(__dirname, 'static'),
