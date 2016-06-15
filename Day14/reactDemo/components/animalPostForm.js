@@ -24,7 +24,7 @@ var AnimalPostForm = React.createClass({
 			<div className="form-group">
 			 			<label>Habitat</label>
 			 			<input type="text" className="form-control" placeholder="Habitat" 
-			 			onChange={this.props.handleHabitatChange} value={this.props.species}/>
+			 			onChange={this.props.handleHabitatChange} value={this.props.habitat}/>
 			       </div>
 
 			<div className="form-group">

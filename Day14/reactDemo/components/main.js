@@ -6,8 +6,8 @@ var Main = React.createClass({
 		return (
 			<div>
 				<div className="container jumbotron allthings">
-					<h1 className="theTitle">Hello from Jeslyn's Wildlife Safari!</h1>
-					<p> animals animals animals</p>
+					<h1 className="theTitle">Hello from Jeslyn's Wildlife Refuge Safari!</h1>
+					<p> Providing new enviornments for animals who have had their habitats taken away from human devleopment.</p>
 					
 					
 					<Link to='/'>

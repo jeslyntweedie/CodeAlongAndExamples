@@ -11,7 +11,7 @@
     "build": "npm run clean && npm run build:webpack",
     "go": "npm run build && npm run start",
     "lint": "eslint client server || true"
-  },
+ },
   "author": "",
   "license": "ISC",
   "dependencies": {

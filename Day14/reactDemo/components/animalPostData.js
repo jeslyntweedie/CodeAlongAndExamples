@@ -48,8 +48,7 @@ var AnimalPostData = React.createClass ({
 			// dataType: 'json',
 			data: animal, 
 			success: function(data){
-				console.log(data);
-				this.props.getAllAnimalsFromServer();
+				this.props.toggleActiveComponent('allAnimals');
 			}.bind(this), //taking success function and bind it all together-- handleNewAnimalPost = ajaxcall
 			error: function(xhr, status, err){
 				console.error('/animals', status, err.toString()) //for our reference if err

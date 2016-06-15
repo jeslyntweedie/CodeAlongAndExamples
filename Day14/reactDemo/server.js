@@ -16,6 +16,9 @@ app.use(express.static(__dirname + '/views'));
 
 app.post('/animals', animalControl.create);
 app.get('/animals', animalControl.read);
+app.put('/animals/:id', animalControl.update);
+app.delete('/animals/:id', animalControl.delete);
+app.get('/animals/:id', animalControl.readById);
 
 
 

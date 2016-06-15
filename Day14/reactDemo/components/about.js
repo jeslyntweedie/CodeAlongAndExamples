@@ -4,7 +4,8 @@ var About = React.createClass({
 	render: function(){
 		return (
 			<div>
-				<h1>This is our about page, so tell me about yourself..</h1>
+				<p> We rescue animals in need and give them environments to flourish, 
+				while raising awareness about human impact on ecosystems and habitats.</p>
 			</div>
 			)
 	}

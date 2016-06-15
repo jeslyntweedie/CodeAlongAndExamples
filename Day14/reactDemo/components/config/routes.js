@@ -6,11 +6,11 @@ var Router = ReactRouter.Router;
 var IndexRoute = ReactRouter.IndexRoute;
 var hashHistory = ReactRouter.hashHistory;
 
-//import{Router, Route, hashHistory, IndexRoute} fro 'react-router';
+//import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 
 var Main = require('./../main.js');
 var Home = require('./../home.js');
-var Animals = require('./../animals.js');
+var Animals = require('./../animalApp.js');
 var About = require('./../about.js');
 
 
